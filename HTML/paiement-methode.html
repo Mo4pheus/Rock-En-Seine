@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Méthode de paiement</title>
+    <link rel="icon" href="/pics/Top-logo.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="/CSS/paiement-methode.css">
+</head>
+
+<header>
+    <nav>
+        <ul>
+          <li class="logo logo1"><a href="../Index.html">ROCK EN SEINE</a></li>
+          <li class="navbar"><a href="/HTML/programme.html">Programme</a></li>
+          <li class="navbar"><a href="/HTML/Billeterie.html">Billeterie</a></li>
+          <li class="navbar"><a href="/HTML/Témoignage.html">Témoignage</a></li>
+          <li class="navbar"><a href="/HTML/FAQ.html">FAQ</a></li> 
+        </ul>
+        <a href="/HTML/profil.html"><img class=" user-pic" src="/pics/user.jpg" width="2.4%" alt="user"></a>
+    </nav>
+</header>
+<body>
+
+    <div class="box">
+        <h1>Paiement</h1>
+        <p class="txt-1">Numéro de compte</p>
+        <div>
+            <label for="number"></label>
+            <input class="first-input" type="number" name="number" id="number">
+        </div>
+        <div class="aligned">
+            <p class="titles">Date d'expiration</p>
+            <div class="champs">
+                <div>
+                    <label for="date"></label>
+                    <input class="date" type="date" name="date" id="date">
+                </div>
+            </div>
+            <p class="title">Code de sécurité</p>
+            <div class="champs">
+                <div>
+                    <label for="password"></label>
+                    <input class="password" type="password" name="password" id="password">
+                </div>
+
+            </div>
+        </div>
+        <button class="posted" onclick="history.back()">Valider</button>
+
+    </div>
+
+    <div class="back">
+        <a href="/HTML/Billeterie.html"><img src="/icons/back-button.png" width="2%" alt=""></a>
+    </div>
+    
+</body>
+</html>
